@@ -1,0 +1,19 @@
+torch        # PyTorch, adjust to match CUDA compatibility if needed
+torchvision    # Torchvision, ensure compatibility with your PyTorch version
+numpy                    # For numerical operations
+opencv-python==4.10.0.84    # OpenCV for video and image processing
+Pillow                  # For handling images
+matplotlib        # For plotting and visualization
+face_recognition==1.3.0  # For face detection and recognition
+streamlit        # Streamlit for building web app interface
+scikit-learn     # For machine learning utilities if needed
+pandas            # For data handling, especially for tabular data
+cmake==3.28.4
+# Optional packages for visualization
+seaborn      # For advanced visualization, optional
+
+# Additional utilities
+requests        # For making HTTP requests if needed
+watchdog         # Required for Streamlit file watching
+
+# Add other dependencies as needed for your project
